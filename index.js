@@ -12,9 +12,9 @@ var stylefmt = postcss.plugin('stylefmt', function (fullPath) {
   return function (root) {
     return params(fullPath).then(function (params) {
       formatComments(root, params)
-      formatAtRules(root, params)
+      formatAtRules(root, params) // @FIX need to remove sass stuff
       formatRules(root, params)
-      formatSassVariables(root, params)
+      // formatSassVariables(root, params) @FIX !see above
       return root
     }).catch(function (err) {
       console.error(err.stack)
