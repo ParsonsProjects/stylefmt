@@ -1,7 +1,7 @@
 {
   "name": "stylefmt",
   "version": "3.4.4",
-  "description": "stylefmt is a tool that automatically formats stylesheets code.",
+  "description": "stylefmt is a tool that automatically formats stylesheets code. Convertion for Less",
   "main": "index.js",
   "scripts": {
     "test": "tape test/*.js"
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/morishitter/stylefmt/git"
+    "url": "git://github.com/ParsonsProjects/stylefmt/git"
   },
   "keywords": [
     "css",
@@ -21,7 +21,7 @@
     "beautifier",
     "postcss-plugin"
   ],
-  "author": "Masaaki Morishita",
+  "author": "Alan Parsons Forked from Masaaki Morishita",
   "license": "MIT",
   "dependencies": {
     "cosmiconfig": "^1.1.0",
